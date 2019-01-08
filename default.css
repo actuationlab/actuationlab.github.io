@@ -104,6 +104,9 @@
 			  padding: 14px 16px;
 			  text-decoration: none;
 			}
+			li.mobile{
+				font-size:18px;
+			}
 			img.toplog{height:50px; 
 			float:right;
 			display:inline-block; 
