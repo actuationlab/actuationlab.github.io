@@ -92,6 +92,11 @@
 			li{
 			  float: left;
 			}
+			img.mobiletoplog{
+				float:right; 
+				height:40px;
+				width:auto;
+				}
 			
 			li.reg{
 				float:none;
@@ -202,7 +207,7 @@
 			margin-right: auto;
 			padding-top:20px;
 			padding-bottom:20px;
-			width:80%;
+			width:95%;
 			height:auto;
 			}
 			div.news{
