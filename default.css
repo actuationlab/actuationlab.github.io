@@ -96,6 +96,7 @@
 				float:right; 
 				max-height:40px;
 				width:auto;
+				display:inline-block;
 				}
 			
 			li.reg{
