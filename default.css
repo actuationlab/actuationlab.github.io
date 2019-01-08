@@ -6,11 +6,21 @@
 			max-width:80%;
 			margin-left:auto;
 			margin-right:auto}
-			
+			h1.mobile {text-align:center;
+			max-width:90%;
+			font-size:14px;
+			margin-left:auto;
+			margin-right:auto
+			}
 			h3{
 				font-size:24px;
 				font-weight:normal;
 				padding-left:50px;
+			}
+			h4.mobile{
+				font-size:12px;
+				font-weight:normal;
+				padding-left:5px;				
 			}
 			h4{
 				font-size:28px;
@@ -65,6 +75,7 @@
 			float:right;
 			display:inline-block; 
 			}
+			
 			li a:hover {
 			  background-color: #bab8b6;
 			  color: #ffffff;
@@ -88,6 +99,15 @@
 			margin-right: auto;
 			padding-top:50px;
 			padding-bottom:50px;
+			}
+			img.mobilecentred {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top:10px;
+			padding-bottom:10px;
+			max-width:90%;
+			height:auto;
 			}
 			iframe.lefted {
 			display: inline-block;
@@ -204,7 +224,42 @@
 			  
 			}
 
-			
+			/* Style the navigation menu */
+			.topnav {
+			  overflow: hidden;
+			  background-color: #000000;
+			  position: relative;
+			}
+
+			/* Hide the links inside the navigation menu (except for logo/home) */
+			.topnav #myLinks {
+			  display: none;
+			}
+
+			/* Style navigation menu links */
+			.topnav a {
+			  color: white;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			  display: block;
+			}
+
+			/* Style the hamburger menu */
+			.topnav a.icon {
+			  background: black;
+			  display: block;
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  
+			}
+
+			/* Add a grey background color on mouse-over */
+			.topnav a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
 
 			/* Clear floats after the columns */
 			.row:after {
@@ -246,3 +301,4 @@
 			@media (min-width:992px){.modal-lg{width:900px}}
 			.close{position:relative;top:-2px;right:-10px;color:inherit}
 			.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;filter:alpha(opacity=20);opacity:.2}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.5}
+			
