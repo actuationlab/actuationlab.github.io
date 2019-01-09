@@ -259,6 +259,11 @@
 			  width: 70%;
 			  padding-top:10px;
 			}
+			.columnrightmobile {
+			  float: right;
+			  width: 60%;
+			  padding-top:10px;
+			}
 			.botborder{
 				border-bottom:1px solid;
 				padding-bottom:30px;
