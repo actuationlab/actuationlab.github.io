@@ -163,7 +163,7 @@
 			}
 			
 			img.faces{margin-left:80px; height:220px;width:auto; }
-			img.facesmobile{margin-left:5px; height:120px;width:auto; }
+			img.facesmobile{margin-left:5px; height:120px;width:auto; float:left;}
 			img.lefted{
 				height:200px;
 				float:left;
@@ -255,27 +255,30 @@
 			}
 			
 			.columnright {
-			  float: left;
-			  width: 70%;
+			  max-width: 60%;
 			  padding-top:10px;
+			  right:0;
+
 			}
 			.columnrightmobile {
-			  width: 100%;
+			  width: 60%;
 			  padding-top:10px;
 			  right:0;
 			}
 			.botborder{
 				border-bottom:1px solid;
 				padding-bottom:30px;
+				
 			}
 			.topborder{
 				border-top:3px solid;
 				
 			}
 			.columnleft {
-			  float: left;
-			  width: 20%;
+			float:left;
+			  max-width: 20%;
 			  padding-top:50px;
+			  margin:10px;
 			  
 			}
 
