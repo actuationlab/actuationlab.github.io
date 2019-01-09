@@ -261,7 +261,7 @@
 
 			}
 			.columnrightmobile {
-			  width: 60%;
+			  max-width: 60%;
 			  padding-top:10px;
 			  right:0;
 			}
