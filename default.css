@@ -162,7 +162,7 @@
 			max-width=1200px;
 			}
 			
-			img.faces{margin-left:50px;}
+			img.faces{margin-left:10px; height:220px;width:auto; }
 			
 			img.lefted{
 				height:200px;
