@@ -162,8 +162,8 @@
 			max-width=1200px;
 			}
 			
-			img.faces{margin-left:10px; height:220px;width:auto; }
-			
+			img.faces{margin-left:80px; height:220px;width:auto; }
+			img.facesmobile{margin-left:5px; height:120px;width:auto; }
 			img.lefted{
 				height:200px;
 				float:left;
@@ -257,7 +257,7 @@
 			.columnright {
 			  float: left;
 			  width: 70%;
-			  padding-top:130px;
+			  padding-top:10px;
 			}
 			.botborder{
 				border-bottom:1px solid;
@@ -269,7 +269,7 @@
 			}
 			.columnleft {
 			  float: left;
-			  width: 30%;
+			  width: 20%;
 			  padding-top:50px;
 			  
 			}
