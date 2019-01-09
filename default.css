@@ -262,6 +262,7 @@
 			.columnrightmobile {
 			  width: 60%;
 			  padding-top:10px;
+			  padding-left:10px;
 			}
 			.botborder{
 				border-bottom:1px solid;
