@@ -334,7 +334,7 @@
 			.w3-row-padding,.w3-row-padding>.w3-third{padding:20px 8px 0 8px}
 			.w3-container{padding:0.01em 16px;}.w3-panel{margin-top:16px;margin-bottom:16px}
 			.w3-margin-bottom{margin-bottom:16px!important;}
-			.w3-hover-opacity{height:322px;max-width:100%;  margin-left:auto; margin-right:auto; display:block;}
+			.w3-hover-opacity{height:322px;max-width:100%; width:auto; margin-left:auto; margin-right:auto; display:block;}
 			
 			.mobile{font-size:16px;padding-left:10px;}
 			.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;-webkit-overflow-scrolling:touch;outline:0;}
