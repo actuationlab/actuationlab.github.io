@@ -1,6 +1,11 @@
+	html {
+  height: 100%;
+  box-sizing: border-box;
+}
+	
 	body {
 				font-family: 'Open Sans', sans-serif;font-size: 28px;color:white; background-color:#0a0a0a;
-                overflow-x:scroll;
+                overflow-x:scroll;padding-bottom:0px;min-height:100%;position: relative;
 			}
 			
 			h1 {text-align:center;
@@ -25,7 +30,20 @@
 				margin-left:auto;
 				margin-right:auto;
 			}
-            
+			h3.bio{
+				max-width:55%;
+				
+			}
+            h2{text-align:center;
+			max-width:80%;
+			font-family: 'Rokkitt';
+			font-weight:300;
+			font-size:50px;
+			margin-left:auto;
+			margin-right:auto
+				
+				
+			}
 
 			h4{
 				font-size:28px;
@@ -90,15 +108,16 @@
 			ul.navmenbase {
 			  overflow:hidden;
 			  list-style-type: none;
-			  margin: 0;
-			  padding: 0;
-			  margin-top:auto;
+			  margin: 10px;
+			  padding: 0px;
 			  overflow: auto;
 			  background-color: #ffffff;
 			  color:#000000;
-			  position: -webkit-fixed; /* Safari */
-			  position: fixed;
-			  bottom: 3px;
+			  position: -webkit-absolute; /* Safari */
+			  position: absolute;
+			  right: 0;
+			  bottom: 0;
+			  left: 0;
 			  display:inline-block;
 			  width:100%;
 			}
@@ -372,9 +391,10 @@
 			.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:left}
 			.w3-third{float:left;width:100%;border-bottom:0.2px solid;border-collapse:collapse;}
 			@media (min-width:900px){.w3-third{width:100%; max-width:75%;}}
-			.w3-row-padding,.w3-row-padding>.w3-third{padding:20px 8px 0 8px}
+			.w3-row-padding,.w3-row-padding>.w3-third{padding:20px 8px 0px 8px}
+			.last{padding-bottom:80px;}
 			.w3-container{padding:0.01em 150px;text-align:center;}.w3-panel{margin-top:16px;margin-bottom:16px}
-			.w3-margin-bottom{margin-bottom:16px!important;}
+			.w3-margin-bottom{margin-bottom:16px!important; width:50%;margin-left:auto;margin-right:auto;}
 			.w3-hover-opacity{max-height:322px;max-width:100%; width:auto;height:auto; margin-left:auto; margin-right:auto; display:block;}
 			.w3-hover-mobile{width:100%; height:auto;  display:block;}
 			.mobile{font-size:16px;padding-left:10px;}
@@ -385,6 +405,7 @@
 			/*.modal-dialog{position:relative;width:auto;margin:10px}*/
 			.modal-content{position:relative;background-color:#ffffff;color:#000;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #999;border:2px solid rgba(255,255,255,.6);border-radius:6px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);box-shadow:0 3px 9px rgba(0,0,0,.5)}
 			.modal-content a{color:#000;}
+			.modal-content img{max-width:100%;max-height:600px;margin-left:auto;margin-right:auto;}
 			.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}
 			.modal-backdrop.fade{filter:alpha(opacity=0);opacity:0}
 			.modal-backdrop.in{filter:alpha(opacity=50);opacity:.9}
