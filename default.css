@@ -396,6 +396,7 @@
 			.w3-row-padding,.w3-row-padding>.w3-third{padding:20px 8px 0px 8px}
 			.last{padding-bottom:80px;}
 			.w3-container{padding:0.01em 150px;text-align:center;}.w3-panel{margin-top:16px;margin-bottom:16px}
+			.w3-containermobile{padding:0.01em 10px;text-align:center;}
 			.w3-margin-bottom{margin-bottom:16px!important; width:50%;margin-left:auto;margin-right:auto;}
 			.w3-hover-opacity{max-height:322px;max-width:100%; width:auto;height:auto; margin-left:auto; margin-right:auto; display:block;}
 			.w3-hover-mobile{width:100%; height:auto;  display:block;}
