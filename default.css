@@ -290,6 +290,11 @@
 			left:0;
 			padding-top:2px;
 			}
+			.bordered{
+				border:1px solid;
+				overflow:auto;
+				padding:10px;
+			}
 			/* Style the navigation menu */
 			.topnav {
 			  overflow: hidden;
