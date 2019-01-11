@@ -1,10 +1,11 @@
 	body {
-				font-family: 'Rokkitt';font-size: 28px;color:white; background-color:black;
+				;font-size: 28px;color:white; background-color:#0a0a0a;
                 overflow-x:scroll;
 			}
 			
 			h1 {text-align:center;
 			max-width:80%;
+			font-family: 'Rokkitt';
 			margin-left:auto;
 			margin-right:auto}
 			
@@ -67,7 +68,7 @@
 			  padding: 0;
 			  margin-top:0px;
 			  overflow: auto;
-			  background-color: #000;
+			  background-color: #0a0a0a;
 			  color:#ffffff;
 			  position: -webkit-sticky; /* Safari */
 			  position: sticky;
