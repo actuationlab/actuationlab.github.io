@@ -29,7 +29,10 @@
 				font-weight:normal;
 				padding-left:50px;
 				padding-right:50px;
+				margin-left:auto;
+				margin-right:auto;
 				text-align:justify;
+				max-width:75%;
                 
 			}
 			
@@ -128,7 +131,7 @@
 			  color: #ffffff;
 			}
 			a.contacter{
-				color:orange;
+				color:#ce7100;
 			}
 			.active {
 			  background-color: #717171;
