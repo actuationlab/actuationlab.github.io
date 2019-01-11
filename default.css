@@ -354,7 +354,7 @@
 
 			/* Style navigation menu links */
 			.topnav a {
-			  background-color: #000000;
+			  background-color: #ffffff;
 			  color:#000000;
 			  padding: 14px 16px;
 			  text-decoration: none;
@@ -374,8 +374,8 @@
 
 			/* Add a grey background color on mouse-over */
 			.topnav a:hover {
-			  background-color: #ddd;
-			  color: black;
+			  background-color: #000;
+			  color: #ffffff;
 			}
 
 			/* Clear floats after the columns */
