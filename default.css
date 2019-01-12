@@ -425,3 +425,171 @@
 			.close{position:relative;top:-2px;right:-10px;color:inherit}
 			.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;filter:alpha(opacity=20);opacity:.2}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.5}
 			
+			
+			
+			#test h1 {
+			text-align: center;
+			animation: fadein 4s ;
+			-moz-animation: fadein 4s; /* Firefox */
+			-webkit-animation: fadein 4s; /* Safari and Chrome */
+			-o-animation: fadein 4s; /* Opera */
+			position:relative;
+			}
+			@keyframes fadein {
+				
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  20% {
+					opacity:0;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+				
+			}
+			@-moz-keyframes fadein { /* Firefox */
+				  0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  20% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+			}
+			@-webkit-keyframes fadein { /* Safari and Chrome */
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  20% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+				
+			}
+			@-o-keyframes fadein { /* Opera */
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  20% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+			}
+			
+			#test2 h4 {
+			animation: fadein2 4s ;
+			-moz-animation: fadein2 4s; /* Firefox */
+			-webkit-animation: fadein2 4s; /* Safari and Chrome */
+			-o-animation: fadein2 4s; /* Opera */
+			position:relative;
+			}
+			@keyframes fadein2 {
+				
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  60% {
+					opacity:0;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+				
+			}
+			@-moz-keyframes fadein2 { /* Firefox */
+				  0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  60% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+			}
+			@-webkit-keyframes fadein2 { /* Safari and Chrome */
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  60% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+				
+			}
+			@-o-keyframes fadein2 { /* Opera */
+				 0% {
+					opacity:0;
+
+				  }
+
+				  /* Finish changes by here */
+				  60% {
+					opacity:0;
+
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					opacity:1;
+
+				  }
+			}
