@@ -594,3 +594,86 @@
 
 				  }
 			}
+			
+			#test3 img {
+			animation: moveup 4s ;
+			-moz-animation: moveup 4s; /* Firefox */
+			-webkit-animation: moveup 4s; /* Safari and Chrome */
+			-o-animation: moveup 4s; /* Opera */
+			position:relative;
+			}
+			@keyframes moveup {
+				
+				 0% {
+					padding-top:200px;
+
+				  }
+
+				  /* Finish changes by here */
+				  30% {
+					padding-top:200px;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					padding-top:50px;
+
+				  }
+				
+			}
+			@-moz-keyframes moveup { /* Firefox */
+				 	 0% {
+					padding-top:200px;
+
+				  }
+
+				  /* Finish changes by here */
+				  30% {
+					padding-top:200px;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					padding-top:50px;
+
+				  }
+			}
+			@-webkit-keyframes moveup { /* Safari and Chrome */
+				 	 0% {
+					padding-top:200px;
+
+				  }
+
+				  /* Finish changes by here */
+				  30% {
+					padding-top:200px;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					padding-top:50px;
+
+				  }
+				
+			}
+			@-o-keyframes moveup { /* Opera */
+				 	 0% {
+					padding-top:200px;
+
+				  }
+
+				  /* Finish changes by here */
+				  30% {
+					padding-top:200px;
+	
+				  }
+
+				  /* Between 20% and 100%, nothing changes */
+				  100% {
+					padding-top:50px;
+
+				  }
+			}
