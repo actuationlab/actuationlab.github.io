@@ -45,7 +45,7 @@
 				
 				
 			}
-			 h2.mobile{			font-size:20px;
+			 h2.mobiled{font-size:20px;
 			 max-width:100%;
 			
 			}
@@ -244,6 +244,13 @@
 				margin-right:auto;
 				padding-right:350px;
 			}
+			img.boxedlogmob{
+				max-width:60%;
+				display:inline;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
 			div.righttext {
 			margin-left: auto;
 			margin-right: auto;
