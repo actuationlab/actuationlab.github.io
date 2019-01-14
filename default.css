@@ -194,6 +194,7 @@
 			margin-right: auto;
 			padding-top:50px;
 			padding-bottom:50px;
+			max-width:80%;
 			}
 			img.mobilecentred {
 			display: block;
@@ -434,6 +435,7 @@
 			-webkit-animation: fadein 4s; /* Safari and Chrome */
 			-o-animation: fadein 4s; /* Opera */
 			position:relative;
+			z-index: -1;
 			}
 			@keyframes fadein {
 				
@@ -517,6 +519,7 @@
 			-webkit-animation: fadein2 4s; /* Safari and Chrome */
 			-o-animation: fadein2 4s; /* Opera */
 			position:relative;
+			z-index: -1;
 			}
 			@keyframes fadein2 {
 				
@@ -601,6 +604,7 @@
 			-webkit-animation: moveup 4s; /* Safari and Chrome */
 			-o-animation: moveup 4s; /* Opera */
 			position:relative;
+			z-index: -1;
 			}
 			@keyframes moveup {
 				
