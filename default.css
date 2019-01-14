@@ -543,7 +543,6 @@
 			-webkit-animation: fadein2 4s; /* Safari and Chrome */
 			-o-animation: fadein2 4s; /* Opera */
 			position:relative;
-			z-index: -1;
 			}
 			@keyframes fadein2 {
 				
@@ -561,7 +560,7 @@
 				  /* Between 20% and 100%, nothing changes */
 				  100% {
 					opacity:1;
-
+	
 				  }
 				
 			}
@@ -599,7 +598,7 @@
 				  /* Between 20% and 100%, nothing changes */
 				  100% {
 					opacity:1;
-
+					
 				  }
 				
 			}
