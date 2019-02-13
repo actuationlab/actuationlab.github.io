@@ -427,7 +427,7 @@
 			.w3-margin-bottom{margin-bottom:16px!important; width:50%;margin-left:auto;margin-right:auto;}
 			.w3-hover-opacity{max-height:322px;max-width:100%; width:auto;height:auto; margin-left:auto; margin-right:auto; display:block;}
 			.w3-hover-mobile{width:100%; height:auto;  display:block;}
-			.mobile{font-size:16px;padding-left:10px;}
+			.mobile{font-size:16px;padding-left:10px; text-align: justify; text-justify: inter-word;}
 			.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;-webkit-overflow-scrolling:touch;outline:0;}
 			/*.modal.fade .modal-dialog{-webkit-transition:-webkit-transform .1s ease-out;-o-transition:-o-transform .1s ease-out;transition:transform .1s ease-out;-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);-o-transform:translate(0,-25%);transform:translate(0,-25%)}*/
 			/*.modal.in .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0)}*/
