@@ -46,7 +46,8 @@
 				
 			}
 			 h2.mobiled{font-size:20px;
-			 text-align:center;
+			 text-align: justify;
+			 text-justify: inter-word;
 			 max-width:100%;
 			
 			}
@@ -68,7 +69,8 @@
 			}
 			
             h4.mobile{
-                text-align:center;
+                text-align: justify;
+				text-justify: inter-word;
 				font-size:16px;
 				font-weight:normal;
                 max-width:100%;
