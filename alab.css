@@ -1,6 +1,23 @@
+body {
+	font-family: 'Open Sans', sans-serif; color:white; background-color:#0a0a0a;
+}
 
-	body {
-				font-family: 'Open Sans', sans-serif; color:white; background-color:#0a0a0a;
-			}
+.navbar a{
+	color:#000;
+	font-size:30px;
+	font-weight: bold;
+}
 
-	
+
+.modal-content{
+	color:#000;
+}
+
+.active:hover{
+	background-color:#000;
+	color:#ffffff;
+}
+.modal-hover:hover{
+background-color:#555;
+}
+
