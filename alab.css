@@ -1,0 +1,48 @@
+body {
+	font-family: 'Open Sans', sans-serif; color:white; background-color:#0a0a0a;
+}
+
+.navbar a{
+	color:#000;
+	font-size:30px;
+	font-weight: bold;
+}
+
+
+.modal-content{
+	color:#000;
+}
+
+.modal-hover:hover{
+background-color:#555;
+}
+
+@media screen and (min-width: 301px) {
+h1,h4{
+    font-size: 15px;
+}
+h3{
+    font-size: 15px;
+}
+.navbar a{font-size:16px;}
+}
+
+@media screen and (min-width: 601px) {
+h1,h4{
+    font-size: 20px;
+}
+h3{
+    font-size: 25px;
+}
+.navbar a{font-size:25px;}
+}
+
+@media screen and (min-width: 801px) {
+h1,h4{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.navbar a{font-size:30px;}
+}
