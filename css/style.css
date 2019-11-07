@@ -1319,3 +1319,8 @@ footer .credits a {
     -o-transition: -o-transform 1.2s ease-in-out !important;
     transition: transform 1.2s ease-in-out !important;
 }
+
+.justify{
+	text-align: justify;
+	text-justify: inter-word;
+}
