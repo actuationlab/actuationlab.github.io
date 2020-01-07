@@ -39,6 +39,11 @@ a:hover {
 	color:#000;
 }
 
+.download a{
+	color:#fff;
+	text-decoration:underline;
+	text-decoration-thickness:0.2px;
+}
 .p-r {
   position: relative;
 }
