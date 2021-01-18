@@ -1318,6 +1318,9 @@ footer .credits a {
   .title-a {
 	  font-size: 1.8rem;
   }
+  .display-7 {
+	  font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 577px) {
