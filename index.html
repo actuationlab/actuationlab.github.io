@@ -23,9 +23,9 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Rokkitt:200" rel="stylesheet">
-		
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/Fontello/css/fontello.css" rel="stylesheet">
@@ -43,7 +43,7 @@
   <!--/ Navbar Start /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand2 js-scroll" href="#page-top">Actuation Lab</a>
+      <a class="navbar-brand2 js-scroll rokkitt" href="#page-top">Actuation Lab</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -53,19 +53,34 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#page-top">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#team">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
+            <a class="nav-link js-scroll active rokkitt" href="index.html">Home</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link js-scroll" href="news.html">News</a>
+            <a class="nav-link js-scroll rokkitt" href="callimorph.html">Callimorph Product</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll rokkitt" href="net-zero.html">Net Zero Product</a>
+          </li>
+		  
+			<!-- <div class="dropdown nav-link rokkitt"> -->
+			  <!-- <button class="dropbtn">Products</button> -->
+			  <!-- <div class="dropdown-content"> -->
+				<!-- <a href="callimorph.html">Composite Pneumatic Actuator Product</a> -->
+				<!-- <a href="net-zero.html">Net Zero Process Product</a> -->
+			  <!-- </div> -->
+			<!-- </div> -->
+
+          <li class="nav-item">
+            <a class="nav-link rokkitt" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rokkitt" href="index.html#team">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rokkitt" href="index.html#contact">Contact</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link rokkitt" href="news.html">News</a>
           </li>
         </ul>
       </div>
@@ -93,59 +108,53 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="title-box text-center">
-						<h3 class="title-a">
+						<h3 class="title-a rokkitt pb-5">
 						Actuation Lab
 						</h3>
 						<p class="title-b justify">
-						Actuators are the components that make machines move. Actuation Lab invented the Callimorph&reg; actuator to meet the needs of 
-						the industries who operate in the world's most extreme environments. This new family of actuator is designed to be the most 
-						resilient, powerful and lightweight technology available.
+						At Actuation Lab we are modern day inventors with modern day tools. Using the latest design methods, 
+						modern materials, and rapid manufacturing, we are rethinking the mechanical hardware that keeps process 
+						industries flowing. Whether it is flow control solutions or zero-wear mechanisms, the technology we develop 
+						is designed for longevity and to reduce the impact on our planet.  
 						</p>
-						<div class="line-mf"></div>
+						<!-- <div class="line-mf"></div> -->
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12 col-md-12">
-					<div class="carousel slide pb-5" data-ride="carousel" data-interval="3500">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100" src="images/station3.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/rig.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/launch.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/boat.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/mining.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/turbine.jpg" alt="Actuation Lab Logo">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="images/gimbal.jpg" alt="Actuation Lab Logo">
-							</div>
-						</div>
-					</div>
+				<div class="col-sm-12 col-md-12 embed-responsive embed-responsive-16by9 py-4">
+					<video autoplay muted loop width="1000" height="675" class="embed-responsive-item">
+						<source src="images/vidver.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12 col-md-12">
+				<div class="col-sm-12 col-md-12 py-5">
 					<div class="title-box text-center">
-						<h3 class="title-a">
-						Innovation Summary
+						<h3 class="title-a rokkitt">
+						Innovation for Longevity
 						</h3>
 					</div>
 					<p class="lead justify">
-						Actuation Lab will enable industries who operate in harsh environments to drastically reduce their servicing and handling costs by 
-						employing the Callimorph&reg; actuator in place of their traditional pistons. The Callimorph&reg; is a single-part actuator which creates movement
-						by morphing when fluid pressure is applied. Our actuator is designed to produce the same output as traditional fluid powered actuators, 
-						but with none of the associated servicing requirements and with a great reduction in weight.
+						Actuation Lab’s core technology is the <a class="display-7" href="callimorph.html">Callimorph®</a> actuator. The Callimorph® is a single-part pneumatic actuator 
+						designed to last twice as long in harsh environments as the established technology. With the support of Innovate UK, 
+						the National Composites Centre and the OGTC, we are developing the Callimorph® as the first zero-maintenance actuator 
+						for valves and HVAC systems in the energy and process industries.  
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12 py-5">
+					<div class="title-box text-center">
+						<h3 class="title-a rokkitt">
+						Innovation for Net-Zero
+						</h3>
+					</div>
+					<p class="lead justify">
+						Working closely with the energy industry, we identified a flow control technology that is contributing over 300,000 tonnes 
+						of CO2e emissions in the UK every year. With the support of the SBRI Sustainable Innovation Fund we are applying our design 
+						practices to produce a hardware solution that will stop these greenhouse gas emissions, moving the energy industry one step 
+						closer to Net-zero. 
 					</p>
 				</div>
 			</div>
@@ -153,127 +162,47 @@
     </div>
   </section>
  <!--/ Section About End /-->
-
-<div class="section-counter paralax-mf bg-image" style="background-image: url(images/wind2.jpg); background-size:cover;" >
-    <div class="overlay-mf"></div>
+<h1 class="rokkitt title-a text-center box-shadow-full2" color="#fff">Company Foundations</h1>
+<div class="section-counter paralax-mf bg-image" style="background-image: url(images/station3.jpg); background-size:cover;" >
+	<div class="overlay-mf"></div>
     <div class="px-3">
       <div class="row">
         <div class="col-sm-4 col-lg-4">
           <div class="counter-box counter-box pt-4 pt-md-0">
             <div class="counter-ico">
-              <span class="ico-circle"><i class="icon-feather-01"></i></span>
+              <span><img style="max-height:250px;margin:auto" class="fluid" src="images/design2.png" alt=""><!-- <i class="icon-feather-01"> --></i></span>
             </div>
             <div class="counter-num">
-              <span class="title-b">LIGHTWEIGHT</span>
-			  <p class="lead">By making use of an entirely composite construction, our actuators are extremely lightweight. A typical 230kg actuator can be replaced with
-				a 40kg Callimorph&reg;.</p>
+              <span class="title-b rokkitt">ALGORITHMIC DESIGN</span>
+			  <!-- <p class="lead">Text about design</p> -->
             </div>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4">
           <div class="counter-box pt-4 pt-md-0">
             <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-erlenmeyer-flask"></i></span>
+              <span><img style="max-height:250px;margin:auto" class="fluid" src="images/materials2.png" alt=""><!-- <i class="ion-erlenmeyer-flask"> --></i></span>
             </div>
             <div class="counter-num">
-              <span class="title-b">CORROSION RESISTANT</span>
-			  <p class="lead">The removal of all metal construction prevents any corrosion occuring on the Callimorph&reg; actuator. </p>
+              <span class="title-b rokkitt">ADVANCED MATERIALS</span>
+			  <!-- <p class="lead">Text about materials</p> -->
             </div>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4">
           <div class="counter-box pt-4 pt-md-0">
             <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-wrench"></i></span>
+              <span><img style="max-height:250px;margin:auto" class="fluid" src="images/manufacture2.png" alt=""><!-- <i class="ion-wrench"></i> --></span>
             </div>
             <div class="counter-num">
-              <span class="title-b">SERVICING FREE</span>
-			  <p class="lead">By removing all sliding surfaces and seals, the Callimorph&reg; negates the paths to failure observed in traditional piston actuators. </p>
+              <span class="title-b rokkitt">FLEXIBLE MANUFACTURING</span>
+			  <!-- <p class="lead">Text about manufacturing</p> -->
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div> 
-  
-  <!--/ Section Testimonials Start /-->
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(images/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme static">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="images/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Quotes from Industry</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  "Piston technology is out of the Ark! We can’t go on with this tech forever. If you could be classed as maintenance 
-				  free than that is a great sales pitch for industry."
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-			<div class="testimonial-box">
-              <div class="author-test">
-                <img src="images/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Quotes from Industry</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                 "The excessive weight and size of current actuators is a pertinent issue in the industry. Lightweight Aluminium actuators
-				 come with an associated spark risk and therefore cannot be used in Oil & Gas installations."
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="images/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Quotes from Industry</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  "We see value in employing composites in our actuator range to provide lightweight corrosion resistant solutions.
-				  I certainly see how Actuation Lab’s technology could be applied to produce an improved actuator."
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-			<div class="testimonial-box">
-              <div class="author-test">
-                <img src="images/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Quotes from Industry</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  "Marine growth and corrosion are the problems in offshore hydraulics. Stick a cylinder underwater and after 12 months it 
-				  won’t look like a cylinder. Even the best coatings don’t last."
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-			<div class="testimonial-box">
-              <div class="author-test">
-                <img src="images/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Quotes from Industry</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  "The real problem is that dirt and sea-life builds up on subsea actuators and the seals lock on and degrade. Nobody 
-				  has really found a solution yet."
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Section Testimonials End /-->
+</div> 
  
  
   <!--/ Section Team Start /-->
@@ -283,89 +212,40 @@
         <div class="col-sm-12">
           <div class="box-shadow-full rounded">
 			<div class="title-box text-center">
-						<h3 class="title-a">
+						<h3 class="title-a rokkitt">
 						The Team
 						</h3>
 			</div>
-			<p class="lead justify">
-						Actuation Lab was founded by three Engineers who spent 7 years working together at the University of Bristol developing high-performance composite 
-						structures. Actuation Lab’s growth is being supported by a committee of industry experts and Bristol’s SETsquared and QTEC business accelerators. 
+			<p class="lead text-center justify col-md-12 py-3">
+						Ground-breaking engineering research should change industries, not line bookshelves. Driven by this mutual belief, Michael, 
+						Tom, and Simon spun Actuation Lab out of the University of Bristol. The team is supported by SETsquared incubator and the 
+						OGTC TechX accelerator on their mission to build future-proof mechanical hardware for our evolving process industries. 
 			</p>
-            <div class="row py-4">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="col-sm-4 col-md-8">
-                    <div class="about-img">
-                      <img src="images/simon.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
-                    </div>
-                  </div>
-                </div>
+			<div class="row">
+              <div class="col-md-6 col-sm-12 col-lg-4">
+                <div class="about-img">
+                    <img style="max-width:200px;margin:auto" src="images/simon.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
+					<h2 class="text-center py-1 rokkitt"> Dr Simon Bates<br> <b>CEO</b>  <a href="https://www.linkedin.com/in/drsimonbates/" target="_blank"><i class="ion-social-linkedin shrinker"></i></a></h2>
+				</div>
               </div>
-              <div class="col-md-8">
-                <div class="about-me py-4 py-md-2">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Dr Simon Bates - CEO
-                    </h5>
-                  </div>
-                  <p class="lead justify">
-                   Simon worked extensively with the other core project team members to manufacture Callimorph&reg; prototypes.
-				   He lead the customer discovery during the InnovateUK ICURe programme, allowing the development of a robust
-				   business strategy for Actuation Lab. He has spent the last 18 months learning lessons from a wide network 
-				   of entrepreneurs and business leaders, to prepare himself to lead Actuation Lab as CEO.
-                  </p>
-                </div>
+              <div class="col-md-6 col-sm-12 col-lg-4">
+                <div class="about-img">
+                    <img style="max-width:200px;margin:auto" src="images/dicker.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
+					<h2 class="text-center py-1 rokkitt"> Dr Michael Dicker<br> <b>CTO</b> <a href="https://www.linkedin.com/in/michaeldicker/" target="_blank"><i class="ion-social-linkedin shrinker"></i></a></h2>
+				</div>
               </div>
-            </div>
-			<div class="row py-4">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="col-sm-4 col-md-8">
-                    <div class="about-img">
-                      <img src="images/dicker.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
-                    </div>
-                  </div>
-                </div>
+              <div class="col-md-6 col-sm-12 col-lg-4">
+                <div class="about-img">
+                    <img style="max-width:200px;margin:auto" src="images/tom.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
+					<h2 class="text-center rokkitt"> Dr Tom Llewellyn-Jones<br> <b>Head of R&D</b> <a href="https://www.linkedin.com/in/thomas-llewellyn-jones/" target="_blank"><i class="ion-social-linkedin shrinker"></i></a></h2>
+				</div>
               </div>
-              <div class="col-md-8">
-                <div class="about-me py-4 py-md-2">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Dr Michael Dicker - CTO
-                    </h5>
-                  </div>
-                  <p class="lead justify">
-                   Michael has over 6 years’ experience in plant automation and process control for manufacturing and mining operations. 
-				   Originally from Australia, he moved to the UK to complete a PhD exploring novel actuation systems. Michael holds a Levehulme 
-				   fellowship at the University of Bristol and is the inventor of the Callimorph&reg; actuator.
-                  </p>
-                </div>
-              </div>
-            </div>
-			<div class="row py-4">
-              <div class="col-md-4 col-sm-12">
-                <div class="row">
-                  <div class="col-sm-4 col-md-8">
-                    <div class="about-img">
-                      <img src="images/tom.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="about-me py-4 py-md-2">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Dr Tom Llewellyn-Jones - Head of Manufacturing
-                    </h5>
-                  </div>
-                  <p class="lead justify">
-                   Tom spent the last 7 years developing novel manufacturing techniques in advanced 3D-printing and composite structures. 
-				   He also holds a PhD in Advanced Composite Materials. Tom also has hands on experience of sensing technologies, which 
-				   will allow Actuation Lab to rapidly develop robust actuator sensing and control methods. 
-                  </p>
-                </div>
-              </div>
+              <!-- <div class="col-md-6 col-sm-12 col-lg-4 offset-lg-4">
+                <div class="about-img">
+                    <img style="max-width:300px;margin:auto" src="images/steve.jpg" class="img-fluid rounded b-shadow-a shrinker" alt="">
+					<h2 class="text-center"> Steve Kitson<br> <b>Chair</b> <a href="https://www.linkedin.com/in/steve-kitson-b153368/" target="_blank"><i class="ion-social-linkedin shrinker"></i></a></h2>
+				</div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -390,7 +270,7 @@
   -->
 	<div class="title-box text-center col-md-12 col-sm-12">
 	<div class="container download">
-		<h3 class="title-a">
+		<h3 class="title-a rokkitt">
 			<a href="news.html">News Page</a>
 		</h3>
 		</div>
@@ -399,7 +279,7 @@
   <!--/ Section Contact-Footer Star /-->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(images/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
-    <div class="container">
+    <div class="container col-md-12">
       <div class="row">
         <div class="col-sm-12">
           <div class="contact-mf">
@@ -407,7 +287,7 @@
               <div class="row">
                 <div class="col-md-12 p-4 text-center">
 					<div class="title-box-2 pt-2 pt-md-2">
-						<h5 class="title-left">
+						<h5 class="title-left rokkitt">
 							Contact Us
 						</h5>
 					</div>
