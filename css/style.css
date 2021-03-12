@@ -96,6 +96,13 @@ a:hover {
   color: #000000;
 }
 
+.display-8 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #000000;
+}
+
 .display-7:hover{
 	text-decoration: underline;
 }
@@ -467,6 +474,8 @@ a:hover {
   text-transform: uppercase;
   font-weight: 600;
   font-size:1.1rem;
+  /* text-align: center; */
+  padding: 0.1rem;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
