@@ -103,6 +103,14 @@ a:hover {
   color: #000000;
 }
 
+.display-9 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #000000;
+  text-decoration: underline;
+}
+
 .display-7:hover{
 	text-decoration: underline;
 }
