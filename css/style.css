@@ -1414,4 +1414,10 @@ footer .credits a {
 	margin-right:auto;
 	padding:0 0 1rem 1rem;
   }
+  .justify{
+	  font-size: 0.9rem;
+  }
+  .display-9{
+	  font-size: 0.9rem;
+  }
 }
