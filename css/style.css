@@ -1292,7 +1292,7 @@ footer .credits a {
 
 @media (max-width: 577px) {
   .shrinker {
-    max-width:40%;
+    max-width:100px;
   }
   .post-box img{
 	  max-width:80%
