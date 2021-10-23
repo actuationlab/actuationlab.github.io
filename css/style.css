@@ -188,7 +188,7 @@ a:hover {
 }
 
 .title-a {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -999,7 +999,7 @@ a:hover {
 	max-width:50%;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 .blog-wrapper .article-title {
   font-size: 1.5rem;
@@ -1286,7 +1286,7 @@ footer .credits a {
 	  font-size: 1.2rem;
   }
   .shrinker {
-    max-width:40%;
+    max-width:80%;
   }
   .post-box img{
 	  max-width:80%
@@ -1309,7 +1309,8 @@ footer .credits a {
     margin-bottom: 3rem;
   }
   .shrinker {
-    max-width:20%;
+    max-width:80%;
+    display:block;
   }
   .contact-mf .box-pl2 {
     margin-top: 3rem;
