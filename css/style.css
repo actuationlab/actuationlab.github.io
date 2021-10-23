@@ -1291,9 +1291,15 @@ footer .credits a {
   .post-box img{
 	  max-width:80%
   }
+  .box-shadow-full2 {
+	margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 767px) {
+   .box-shadow-full2 {
+	margin-bottom: 3rem;
+  }
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
@@ -1388,6 +1394,7 @@ footer .credits a {
 .justify{
 	text-align: justify;
 	text-justify: inter-word;
+	font-size: 1rem;
 }
 .grower-right{
 	display:block;
@@ -1404,9 +1411,6 @@ footer .credits a {
 	margin-left:auto;
 	margin-right:auto;
 	padding:0 0 1rem 1rem;
-  }
-  .justify{
-	  font-size: 1rem;
   }
   .display-9{
 	  font-size: 0.8rem;
