@@ -90,7 +90,7 @@ a:hover {
 }
 
 .display-7 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.1;
   color: #000000;
@@ -1276,9 +1276,6 @@ footer .credits a {
   .counter-box {
     margin-bottom: 1.8rem;
   }
-}
-
-@media (max-width: 577px) {
   .title-b {
     font-size: 1.4rem;
   }
@@ -1288,11 +1285,8 @@ footer .credits a {
   .display-7 {
 	  font-size: 1.2rem;
   }
-}
-
-@media (max-width: 577px) {
   .shrinker {
-    max-width:100px;
+    max-width:40%;
   }
   .post-box img{
 	  max-width:80%
@@ -1308,14 +1302,13 @@ footer .credits a {
   .card-blog {
     margin-bottom: 3rem;
   }
-
+  .shrinker {
+    max-width:20%;
+  }
   .contact-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-}
-
-@media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
   }
@@ -1396,9 +1389,7 @@ footer .credits a {
 	text-align: justify;
 	text-justify: inter-word;
 }
-
-@media (max-width: 768px) {
-  .grower-right{
+.grower-right{
 	display:block;
     width: 100%;
 	float:none;
@@ -1415,7 +1406,7 @@ footer .credits a {
 	padding:0 0 1rem 1rem;
   }
   .justify{
-	  font-size: 0.8rem;
+	  font-size: 1rem;
   }
   .display-9{
 	  font-size: 0.8rem;
